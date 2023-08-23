@@ -1,0 +1,128 @@
+h1 {
+    color: rgb(102, 0, 102);
+    font-size: 4em;
+    font-family:cursive;
+  }
+  body {
+    background-image: url("https://media.licdn.com/dms/image/C4E03AQGkZT0XR8__oQ/profile-displayphoto-shrink_800_800/0/1598538982346?e=2147483647&v=beta&t=QZn3PbTKEys17651w9RGxELkhWm_Ib2jygc-BPvKSOE");
+  }
+  a {
+    color: red;
+    text-decoration: none;
+    margin: 10ox;
+    padding: 10px;
+  }
+  
+  a:hover{
+    color: black;
+    background-color: yellow;
+  }
+  
+  a:visited{
+    color: blue;
+  }
+  nav > div > ul > li {
+    list-style-type: none;
+    margin:10;
+    padding:10;
+    display: inline;
+    font-size: 2em;
+  }
+  
+  p {
+    font-size: 2em;
+    margin:10;
+    padding:10;
+    color: pink;
+  }
+  
+  blockquote {
+      margin: 0;
+  }
+  
+  blockquote p {
+      padding: 15px;
+      background: #eee;
+      border-radius: 5px;
+      color: black;
+  }
+  
+  blockquote p::before {
+      content: '\201C';
+  }
+  
+  blockquote p::after {
+      content: '\201D';
+  }
+  blockquote {
+  max-width: 550px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-size: 20px;
+  background: #f7f2de;
+  border: solid 2px #a3725b;
+  border-radius: 30px;
+  }
+  figcaption{
+    font-size:2em;
+    color: white;
+  }
+  
+  img{
+    width: 300px;
+    border: 5px  solid yellow;
+    float: middle;
+  } 
+  
+  h2{
+    font-size:2.5em;
+    color: rgb(235, 9, 23);  
+  }
+  
+  h3{
+    color: rgb(235, 9, 23);
+    font-size:1.5em;
+  }
+  table,
+  td {
+      border: 1px solid #333;
+      color: white;
+      table-layout: auto; width: 700px
+  }
+  
+  thead,
+  tfoot {
+      background-color: #333;
+      color: white;
+  }
+  
+  caption{
+    color: black;
+    font-size: 2.5em;
+  }
+  
+  form.form-example {
+      display: table;
+  }
+  
+  div.form-example {
+      display: table-row;
+  }
+  
+  label,
+  input {
+      display: table-cell;
+      margin-bottom: 10px;
+  }
+  
+  label {
+      padding-right: 10px;
+  }
+  
+  ol{
+    font-size: 2em;
+    font-style: italic;
+    color: blue;
+  }
